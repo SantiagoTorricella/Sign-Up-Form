@@ -42,6 +42,12 @@ div > img {
 .right-page {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+}
+
+.right-up {
+  align-self: center;
+  margin-left: 2em;
 }
 
 .right-middle {
@@ -49,5 +55,15 @@ div > img {
 }
 
 .form-content {
+  display: flex;
+}
+
+.form-color {
   background-color: rgb(208, 255, 237);
+}
+
+.form-selection {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2em;
 }

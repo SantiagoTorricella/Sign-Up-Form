@@ -1,14 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign-Up-Form</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-page">
+        <div>
+          <img src="./foto.avif" alt="background-image" />
+          <div class="image-front">
+            <img class="odin-logo" src="./odin-lined.png" alt="odin-logo" />
+            PAGENAME
+          </div>
+        </div>
+      </div>
+      <div class="right-page">
+        <div class="right-up">
+          <div>
+            This is not a real online service! You know you need something like
+            this in your life to help ypu realize your deepest dreams.
+          </div>
+          <div>Sign up <em>now</em> to get started</div>
+          <p>You <em>know</em> you want to</p>
+        </div>
+        <div class="right-middle">
+          <form action="#" method="post">
+            <div class="form-section">
+              <label for="first-name">First Name</label>
+              <input
+                type="text"
+                id="first-name"
+                placeholder="Gustavo"
+                name="first-name"
+              />
+            </div>
+            <div class="form-section">
+              <label for="last-name">Last Name</label>
+              <input
+                type="text"
+                id="last-name"
+                placeholder="Gutierrez"
+                name="last-name"
+              />
+            </div>
+            <div class="form-selection">
+              <label for="password">Password</label>
+              <input
+                type="text"
+                name="password"
+                id="password"
+                placeholder="********"
+              />
+            </div>
+            <div class="form-selection">
+              <label for="confirm-password">Confirm Password</label>
+              <input
+                type="text"
+                name="confirm-password"
+                id="confirm-password"
+                placeholder="********"
+              />
+            </div>
+            <div class="form-selection">
+              <label for="phone">Phone Number</label>
+              <input
+                type="text"
+                name="phone"
+                id="phone"
+                placeholder="3416859847"
+              />
+            </div>
+            <button type="#">Create Account</button>
+          </form>
+        </div>
+        <p>Already have an account? <a href="#">Log in</a></p>
+      </div>
+    </div>
+  </body>
 </html>

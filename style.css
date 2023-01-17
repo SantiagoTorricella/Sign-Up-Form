@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 40vw;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+}
+
+.left-page {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+}
+
+.image-front {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 15em;
+  background-color: rgba(128, 128, 128, 0.096);
+  width: 40vw;
+  color: aliceblue;
+}
+
+div > img {
+  margin-right: 1em;
+}
+
+.odin-logo {
+  width: 5em;
+  height: 5em;
+}
+
+.right-page {
+  display: flex;
+  flex-direction: column;
+}

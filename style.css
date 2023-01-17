@@ -43,3 +43,11 @@ div > img {
   display: flex;
   flex-direction: column;
 }
+
+.right-middle {
+  background-color: white;
+}
+
+.form-content {
+  background-color: rgb(208, 255, 237);
+}

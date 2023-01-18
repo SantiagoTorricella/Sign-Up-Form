@@ -44,6 +44,7 @@ div > img {
 .right-page {
   display: flex;
   flex-direction: column;
+  background-color: rgb(240, 240, 240);
 }
 
 .right-up {
@@ -52,7 +53,6 @@ div > img {
   justify-content: center;
   height: 33vh;
   width: 60vw;
-  background-color: rgb(255, 255, 255);
 }
 
 .right-up > * {
@@ -73,7 +73,7 @@ div > img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(208, 255, 237);
+  background-color: rgb(255, 255, 255);
 }
 
 .form-selection {

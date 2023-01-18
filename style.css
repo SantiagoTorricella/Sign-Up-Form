@@ -10,6 +10,7 @@ img {
 
 .container {
   display: flex;
+  flex-direction: row;
 }
 
 .left-page {
@@ -27,6 +28,7 @@ img {
   bottom: 15em;
   background-color: rgba(128, 128, 128, 0.096);
   width: 40vw;
+  height: 7em;
   color: aliceblue;
 }
 
@@ -42,20 +44,22 @@ div > img {
 .right-page {
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 .right-up {
-  align-self: center;
-  margin-left: 2em;
-}
-
-.right-middle {
-  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 33vh;
+  width: 60vw;
+  background-color: aqua;
 }
 
 .form-content {
   display: flex;
+  height: 33vh;
+  justify-content: center;
+  align-items: center;
 }
 
 .form-color {
@@ -65,5 +69,5 @@ div > img {
 .form-selection {
   display: flex;
   flex-direction: column;
-  margin-left: 2em;
+  margin: 2em;
 }

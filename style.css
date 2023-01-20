@@ -53,6 +53,8 @@ div > img {
   justify-content: center;
   height: 33vh;
   width: 60vw;
+  font-size: larger;
+  font-weight: bold;
 }
 
 .right-up > * {
@@ -79,5 +81,20 @@ div > img {
 .form-selection {
   display: flex;
   flex-direction: column;
+  margin: 2em;
+}
+
+button {
+  color: aliceblue;
+  font-weight: 800;
+  font-size: medium;
+  background-color: rgba(24, 97, 24, 0.897);
+  border-radius: 0.5em;
+  margin-left: 2em;
+  margin-top: 2em;
+  padding: 0.5em 4em;
+}
+
+.bottom-text {
   margin: 2em;
 }

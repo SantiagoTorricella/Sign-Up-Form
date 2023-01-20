@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Norse-Bold";
+  src: url(./Norse-Bold.otf);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -28,8 +33,13 @@ img {
   bottom: 15em;
   background-color: rgba(128, 128, 128, 0.096);
   width: 40vw;
-  height: 7em;
+  height: 8em;
   color: aliceblue;
+}
+.logo-text {
+  font-family: Norse-Bold;
+  font-size: 50px;
+  font-weight: bolder;
 }
 
 div > img {
@@ -37,8 +47,8 @@ div > img {
 }
 
 .odin-logo {
-  width: 5em;
-  height: 5em;
+  width: 6em;
+  height: 7em;
 }
 
 .right-page {
@@ -48,6 +58,7 @@ div > img {
 }
 
 .right-up {
+  font-family: "Times New Roman", Times, serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -66,21 +77,28 @@ div > img {
 
 .form-content {
   display: flex;
-  height: 33vh;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
+  height: 33vh;
 }
 
 .form-color {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   background-color: rgb(255, 255, 255);
+  box-shadow: 0px 8px 5px rgba(128, 128, 128, 0.253);
+}
+
+.form-color > h3 {
+  margin-top: 1em;
+  margin-left: 2em;
 }
 
 .form-selection {
   display: flex;
   flex-direction: column;
+  margin-top: 1em;
   margin: 2em;
 }
 

@@ -58,12 +58,13 @@ div > img {
 }
 
 .right-up {
-  font-family: "Times New Roman", Times, serif;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
+  margin-bottom: 1em;
   height: 33vh;
   width: 60vw;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: larger;
   font-weight: bold;
 }
